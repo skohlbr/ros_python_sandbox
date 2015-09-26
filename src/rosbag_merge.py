@@ -11,8 +11,7 @@ from rosbag import Bag
 
 def main():
 
-    parser = argparse.ArgumentParser(description='Merge one or more bag files
-                                     with the possibilities of filtering topics.')
+    parser = argparse.ArgumentParser(description='Merge one or more bag files with the possibilities of filtering topics.')
     parser.add_argument('outputbag',
                         help='output bag file with topics merged')
     parser.add_argument('inputbag', nargs='+',
